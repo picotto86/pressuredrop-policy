@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – PressureDrop</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #222;
+      background: #fafafa;
+    }
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+    .logo-icon {
+      width: 52px; height: 52px;
+      border-radius: 12px;
+    }
+    .logo-text { font-size: 26px; font-weight: 700; color: #d62e4a; }
+    h1 { font-size: 28px; font-weight: 700; margin-bottom: 6px; }
+    .subtitle { color: #666; font-size: 14px; margin-bottom: 40px; }
+    .lang-switch {
+      display: flex; gap: 8px; margin-bottom: 32px;
+    }
+    .lang-btn {
+      padding: 6px 16px;
+      border: 1.5px solid #d62e4a;
+      border-radius: 20px;
+      background: none;
+      color: #d62e4a;
+      font-size: 14px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    .lang-btn.active { background: #d62e4a; color: #fff; }
+    section { margin-bottom: 36px; }
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #d62e4a;
+      margin-bottom: 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #f3c4cc;
+    }
+    p { margin-bottom: 12px; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { margin-bottom: 6px; }
+    .highlight {
+      background: #fff4f6;
+      border-left: 3px solid #d62e4a;
+      padding: 12px 16px;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 12px;
+    }
+    .contact-card {
+      background: #fff;
+      border: 1px solid #e8e8e8;
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 8px;
+    }
+    .contact-card strong { display: block; font-size: 16px; margin-bottom: 4px; }
+    a { color: #d62e4a; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .updated { color: #888; font-size: 13px; margin-top: 40px; text-align: center; }
+    .lang-section { display: none; }
+    .lang-section.visible { display: block; }
+    .divider {
+      border: none;
+      border-top: 2px dashed #ddd;
+      margin: 48px 0;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <div class="logo">
+    <img class="logo-icon" src="icon.png" alt="">
+    <span class="logo-text">PressureDrop</span>
+  </div>
+
+  <div class="lang-switch">
+    <button class="lang-btn active" onclick="showLang('it', this)">🇮🇹 Italiano</button>
+    <button class="lang-btn" onclick="showLang('en', this)">🇬🇧 English</button>
+  </div>
+
+  <!-- ==================== ITALIANO ==================== -->
+  <div id="lang-it" class="lang-section visible">
+
+    <h1>Informativa sulla Privacy</h1>
+    <p class="subtitle">Ultimo aggiornamento: novembre 2026</p>
+
+    <section>
+      <h2>1. Titolare del trattamento</h2>
+      <div class="contact-card">
+        <strong>Pavia Mauro</strong>
+        Sviluppatore indipendente<br>
+        Email: <a href="mailto:pavia.mauro@gmail.com">pavia.mauro@gmail.com</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>2. Cos'è PressureDrop</h2>
+      <p>PressureDrop è un'applicazione per iPhone e iPad che consente di registrare le misurazioni della pressione arteriosa, anche leggendo i valori da una foto del display del misuratore, di consultarne l'andamento nel tempo e di ricevere promemoria per effettuare le misurazioni.</p>
+      <div class="highlight">
+        <strong>In breve:</strong> PressureDrop non raccoglie, non invia e non vende i tuoi dati. Non richiede la registrazione, non contiene pubblicità né sistemi di analisi o tracciamento. I dati restano sui tuoi dispositivi, in Apple Salute o nel tuo account iCloud personale, e lo sviluppatore non può accedervi.
+      </div>
+    </section>
+
+    <section>
+      <h2>3. Dati trattati</h2>
+      <p>L'app tratta le seguenti categorie di dati, <strong>esclusivamente sul tuo dispositivo</strong> e per il funzionamento dell'app:</p>
+
+      <p><strong>Dati inseriti dall'utente:</strong></p>
+      <ul>
+        <li>Misurazioni della pressione arteriosa (sistolica e diastolica), pulsazioni, data e ora</li>
+        <li>Orari dei promemoria (opzionali)</li>
+      </ul>
+
+      <p><strong>Dati a cui l'app accede con il tuo consenso:</strong></p>
+      <ul>
+        <li>Dati di pressione arteriosa e frequenza cardiaca in Apple Salute (HealthKit), se scegli di collegare Salute</li>
+        <li>Fotocamera o libreria foto, solo quando usi la funzione "Leggi dal display"</li>
+        <li>Notifiche, solo se attivi i promemoria</li>
+      </ul>
+
+      <p>Lo sviluppatore <strong>non riceve</strong> nessuno di questi dati.</p>
+    </section>
+
+    <section>
+      <h2>4. Finalità del trattamento</h2>
+      <ul>
+        <li><strong>Erogazione del servizio:</strong> salvare le misurazioni, mostrarne lo storico, i grafici e la classificazione</li>
+        <li><strong>Lettura dal display:</strong> riconoscere i valori dalla foto del misuratore per compilare il modulo, che l'utente controlla e conferma prima del salvataggio</li>
+        <li><strong>Promemoria:</strong> ricordarti di misurare la pressione agli orari scelti</li>
+        <li><strong>Aggiornamenti:</strong> avvisarti quando è disponibile una nuova versione dell'app</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. Base giuridica (GDPR)</h2>
+      <ul>
+        <li><strong>Consenso esplicito</strong> (Art. 6(1)(a) e Art. 9(2)(a)): per l'accesso ai dati sanitari in Apple Salute, alla fotocamera e alle notifiche. Il consenso viene richiesto tramite le finestre di sistema di iOS e può essere revocato in qualsiasi momento.</li>
+        <li><strong>Esecuzione del servizio richiesto</strong> (Art. 6(1)(b)): per salvare e mostrare le misurazioni che inserisci.</li>
+      </ul>
+      <p>Poiché i dati restano sotto il tuo controllo e non vengono trasmessi allo sviluppatore, il trattamento avviene interamente sui tuoi dispositivi e nei servizi Apple associati al tuo ID Apple.</p>
+    </section>
+
+    <section>
+      <h2>6. Servizi di terze parti</h2>
+      <p>L'app utilizza esclusivamente servizi forniti da Apple, regolati dalla <a href="https://www.apple.com/it/legal/privacy/" target="_blank">Privacy Policy di Apple</a>:</p>
+      <ul>
+        <li><strong>Apple Salute (HealthKit):</strong> archiviazione delle misurazioni, se colleghi Salute</li>
+        <li><strong>iCloud (CloudKit):</strong> sincronizzazione delle misurazioni tra i tuoi dispositivi tramite il tuo database iCloud privato, se non colleghi Salute</li>
+        <li><strong>Vision e Apple Intelligence sul dispositivo:</strong> lettura dei valori dalla foto del display, eseguita interamente sul dispositivo</li>
+        <li><strong>App Store:</strong> verifica della disponibilità di nuove versioni; la richiesta contiene solo l'identificativo dell'app</li>
+      </ul>
+      <div class="highlight">
+        I dati ottenuti da Apple Salute (HealthKit) non vengono mai condivisi con terze parti, utilizzati per pubblicità o marketing, venduti, né usati per profilazione. Le foto del display vengono analizzate sul dispositivo e non vengono né salvate né inviate a server esterni.
+      </div>
+    </section>
+
+    <section>
+      <h2>7. Conservazione dei dati</h2>
+      <ul>
+        <li><strong>Misurazioni in Apple Salute:</strong> conservate in Salute finché non le elimini dall'app o dall'app Salute.</li>
+        <li><strong>Misurazioni in iCloud:</strong> conservate nel tuo iCloud finché non le elimini dall'app o da Impostazioni › [il tuo nome] › iCloud › Gestisci spazio.</li>
+        <li><strong>Foto del display:</strong> non conservate; vengono usate solo per la lettura dei valori.</li>
+        <li><strong>Impostazioni e promemoria:</strong> conservati sul dispositivo e rimossi eliminando l'app.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>8. Diritti dell'utente (GDPR)</h2>
+      <p>In qualità di interessato, hai diritto a:</p>
+      <ul>
+        <li><strong>Accesso</strong>: consultare in qualsiasi momento le tue misurazioni nell'app o in Apple Salute</li>
+        <li><strong>Rettifica</strong>: modificare le misurazioni inserite direttamente dall'app</li>
+        <li><strong>Cancellazione</strong>: eliminare singole misurazioni dall'app, oppure tutti i dati da Salute, da iCloud o eliminando l'app</li>
+        <li><strong>Portabilità</strong>: esportare i tuoi dati da Apple Salute (profilo › Esporta tutti i dati sanitari)</li>
+        <li><strong>Revoca del consenso</strong>: in qualsiasi momento dall'app Salute o dalle Impostazioni di iOS, senza pregiudicare la liceità del trattamento precedente</li>
+      </ul>
+      <p>Poiché lo sviluppatore non detiene i tuoi dati, puoi esercitare questi diritti direttamente dal tuo dispositivo. Per qualsiasi domanda scrivi a <a href="mailto:pavia.mauro@gmail.com">pavia.mauro@gmail.com</a>. Risponderemo entro 30 giorni.</p>
+    </section>
+
+    <section>
+      <h2>9. Minori</h2>
+      <p>PressureDrop non è destinata a utenti di età inferiore ai 13 anni. L'app non raccoglie dati personali di alcun utente, inclusi i minori.</p>
+    </section>
+
+    <section>
+      <h2>10. Sicurezza</h2>
+      <p>I dati sono protetti dalle misure di sicurezza di iOS e dei servizi Apple: i dati di Apple Salute sono cifrati sul dispositivo e i dati in iCloud sono archiviati nel database privato associato al tuo ID Apple e trasmessi in modo cifrato. L'app non trasmette i tuoi dati ad altri server.</p>
+    </section>
+
+    <section>
+      <h2>11. Avvertenza medica</h2>
+      <p>PressureDrop ha solo scopo informativo e non è un dispositivo medico. La classificazione delle misurazioni segue le linee guida ESC/ESH 2018 e non sostituisce il parere del medico.</p>
+    </section>
+
+    <section>
+      <h2>12. Modifiche alla presente informativa</h2>
+      <p>Ci riserviamo il diritto di aggiornare questa informativa. La versione aggiornata sarà sempre disponibile a questo indirizzo, con la data dell'ultimo aggiornamento.</p>
+    </section>
+
+    <section>
+      <h2>13. Contatti</h2>
+      <div class="contact-card">
+        <strong>Pavia Mauro – Sviluppatore PressureDrop</strong>
+        Email: <a href="mailto:pavia.mauro@gmail.com">pavia.mauro@gmail.com</a>
+      </div>
+    </section>
+
+  </div><!-- /lang-it -->
+
+  <hr class="divider">
+
+  <!-- ==================== ENGLISH ==================== -->
+  <div id="lang-en" class="lang-section">
+
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">Last updated: November 2026</p>
+
+    <section>
+      <h2>1. Data Controller</h2>
+      <div class="contact-card">
+        <strong>Pavia Mauro</strong>
+        Independent Developer<br>
+        Email: <a href="mailto:pavia.mauro@gmail.com">pavia.mauro@gmail.com</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>2. About PressureDrop</h2>
+      <p>PressureDrop is an iPhone and iPad app that lets you log blood pressure readings, including by reading the values from a photo of your monitor's display, follow their trend over time, and receive reminders to measure.</p>
+      <div class="highlight">
+        <strong>In short:</strong> PressureDrop does not collect, transmit or sell your data. It requires no account and contains no ads, analytics or tracking. Your data stays on your devices, in Apple Health or in your personal iCloud account, and the developer cannot access it.
+      </div>
+    </section>
+
+    <section>
+      <h2>3. Data We Process</h2>
+      <p>The app processes the following data <strong>only on your device</strong>, to provide its features:</p>
+
+      <p><strong>Data you enter:</strong></p>
+      <ul>
+        <li>Blood pressure readings (systolic and diastolic), pulse, date and time</li>
+        <li>Reminder times (optional)</li>
+      </ul>
+
+      <p><strong>Data the app accesses with your permission:</strong></p>
+      <ul>
+        <li>Blood pressure and heart rate data in Apple Health (HealthKit), if you choose to connect Health</li>
+        <li>Camera or photo library, only when you use "Read from display"</li>
+        <li>Notifications, only if you turn on reminders</li>
+      </ul>
+
+      <p>The developer <strong>does not receive</strong> any of this data.</p>
+    </section>
+
+    <section>
+      <h2>4. How We Use Your Data</h2>
+      <ul>
+        <li><strong>Service delivery:</strong> save your readings and show their history, charts and classification</li>
+        <li><strong>Reading the display:</strong> recognize the values in a photo of your monitor to fill in the form, which you review and confirm before saving</li>
+        <li><strong>Reminders:</strong> remind you to measure at the times you choose</li>
+        <li><strong>Updates:</strong> let you know when a new version of the app is available</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. Legal Basis (GDPR)</h2>
+      <ul>
+        <li><strong>Explicit consent</strong> (Art. 6(1)(a) and Art. 9(2)(a)): for access to health data in Apple Health, the camera and notifications. Consent is requested through iOS system prompts and can be withdrawn at any time.</li>
+        <li><strong>Provision of the requested service</strong> (Art. 6(1)(b)): to save and display the readings you enter.</li>
+      </ul>
+      <p>Because your data stays under your control and is never sent to the developer, processing takes place entirely on your devices and in the Apple services linked to your Apple Account.</p>
+    </section>
+
+    <section>
+      <h2>6. Third-Party Services</h2>
+      <p>The app only uses services provided by Apple, governed by <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>:</p>
+      <ul>
+        <li><strong>Apple Health (HealthKit):</strong> storage of your readings, if you connect Health</li>
+        <li><strong>iCloud (CloudKit):</strong> syncing your readings across your devices through your private iCloud database, if you don't connect Health</li>
+        <li><strong>Vision and on-device Apple Intelligence:</strong> reading values from the display photo, entirely on device</li>
+        <li><strong>App Store:</strong> checking for new versions; the request only contains the app identifier</li>
+      </ul>
+      <div class="highlight">
+        Data obtained from Apple Health (HealthKit) is never shared with third parties, used for advertising or marketing, sold, or used for profiling. Display photos are analyzed on device and are neither stored nor sent to any server.
+      </div>
+    </section>
+
+    <section>
+      <h2>7. Data Retention</h2>
+      <ul>
+        <li><strong>Readings in Apple Health:</strong> kept in Health until you delete them from the app or the Health app.</li>
+        <li><strong>Readings in iCloud:</strong> kept in your iCloud until you delete them from the app or from Settings › [your name] › iCloud › Manage Storage.</li>
+        <li><strong>Display photos:</strong> not retained; used only to read the values.</li>
+        <li><strong>Settings and reminders:</strong> stored on the device and removed when you delete the app.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>8. Your Rights (GDPR)</h2>
+      <p>As a data subject, you have the right to:</p>
+      <ul>
+        <li><strong>Access:</strong> view your readings at any time in the app or in Apple Health</li>
+        <li><strong>Rectification:</strong> edit your readings directly in the app</li>
+        <li><strong>Erasure:</strong> delete individual readings in the app, or all data from Health, from iCloud or by deleting the app</li>
+        <li><strong>Portability:</strong> export your data from Apple Health (profile › Export All Health Data)</li>
+        <li><strong>Withdrawal of consent:</strong> at any time from the Health app or iOS Settings, without affecting the lawfulness of prior processing</li>
+      </ul>
+      <p>Since the developer does not hold your data, you can exercise these rights directly on your device. For any question, email <a href="mailto:pavia.mauro@gmail.com">pavia.mauro@gmail.com</a>. We will respond within 30 days.</p>
+    </section>
+
+    <section>
+      <h2>9. Children's Privacy</h2>
+      <p>PressureDrop is not intended for users under the age of 13. The app does not collect personal data from any user, including children.</p>
+    </section>
+
+    <section>
+      <h2>10. Security</h2>
+      <p>Your data is protected by the security measures of iOS and Apple services: Apple Health data is encrypted on the device, and iCloud data is stored in the private database linked to your Apple Account and transmitted encrypted. The app does not send your data to any other server.</p>
+    </section>
+
+    <section>
+      <h2>11. Medical Disclaimer</h2>
+      <p>PressureDrop is for informational purposes only and is not a medical device. The classification of readings follows the 2018 ESC/ESH guidelines and does not replace the advice of a doctor.</p>
+    </section>
+
+    <section>
+      <h2>12. Changes to This Policy</h2>
+      <p>We reserve the right to update this policy. The updated version will always be available at this address, with the date of the last update.</p>
+    </section>
+
+    <section>
+      <h2>13. Contact</h2>
+      <div class="contact-card">
+        <strong>Pavia Mauro – PressureDrop Developer</strong>
+        Email: <a href="mailto:pavia.mauro@gmail.com">pavia.mauro@gmail.com</a>
+      </div>
+    </section>
+
+  </div><!-- /lang-en -->
+
+  <p class="updated">PressureDrop &copy; 2026 – Pavia Mauro</p>
+
+</div>
+
+<script>
+  function showLang(lang, btn) {
+    document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('visible'));
+    document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+    document.getElementById('lang-' + lang).classList.add('visible');
+    btn.classList.add('active');
+  }
+</script>
+</body>
+</html>
